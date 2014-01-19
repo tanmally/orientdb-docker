@@ -1,4 +1,5 @@
-FROM quintenk/jdk7-oracle
+FROM bbytes/java7
+
 MAINTAINER bbytes  "info@beyondbytes.co.in"
 
 RUN mkdir /opt/bbytes
