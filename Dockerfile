@@ -2,7 +2,7 @@ FROM bbytes/java7
 
 MAINTAINER bbytes  "info@beyondbytes.co.in"
 
-RUN mkdir /opt/bbytes
+RUN mkdir -p /opt/bbytes
 ADD orientdb-v1.5.zip /opt/bbytes/orientdb-v1.5.zip 
 RUN apt-get install unzip
 RUN  cd /opt/bbytes ; unzip orientdb-v1.5.zip
